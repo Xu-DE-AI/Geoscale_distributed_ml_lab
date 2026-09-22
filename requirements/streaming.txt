@@ -1,0 +1,2 @@
+confluent-kafka>=2.5
+apache-flink>=1.19

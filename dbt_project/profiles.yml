@@ -1,0 +1,7 @@
+geoscale:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/generated/geoscale.duckdb
+      threads: 4

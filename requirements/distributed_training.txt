@@ -1,0 +1,2 @@
+accelerate>=0.34
+ray[train,tune]>=2.30

@@ -1,0 +1,9 @@
+name: geoscale
+version: '1.0'
+config-version: 2
+profile: geoscale
+model-paths: ['models']
+models:
+  geoscale:
+    staging: {+materialized: view}
+    marts: {+materialized: table}

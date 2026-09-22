@@ -1,0 +1,1 @@
+select experiment_id, region, count(*) as n_events, avg(magnitude) as mean_magnitude, avg(dt) as mean_dt, avg(abs(z)) as mean_abs_z, avg(pressure) as mean_pressure from {{ ref('stg_events') }} group by 1,2
