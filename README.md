@@ -1,0 +1,2 @@
+# Geoscale_distributed_ml_lab
+Industrial prototypes
